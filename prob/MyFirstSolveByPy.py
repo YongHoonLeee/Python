@@ -3,8 +3,8 @@ def solution(participant, completion):
         participant.remove(i)
     return participant[0]
 
-participant = ['lee','yong','hoon']
-completion = [ 'yong','hoon']
+participant=['lee','yong','hoon']
+completion = ['yong','hoon']
 
 print(solution(participant,completion))
 
