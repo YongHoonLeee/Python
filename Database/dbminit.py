@@ -5,5 +5,5 @@ with dbm.open('cache', 'c') as db:
     db['1'] = 'yonghoon'
     db['2'] = 'woowowo'
 
-with dbm.open('cache','r') as db:
+with dbm.open('cache', 'r') as db:
     print(db.get('1'))
